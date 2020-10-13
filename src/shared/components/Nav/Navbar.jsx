@@ -8,8 +8,8 @@ const Nav = styled.nav`
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  color:#fff;
-  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   .logo {
     padding: 15px 0;
   }
@@ -18,7 +18,13 @@ const Nav = styled.nav`
 const Navbar = () => {
   return (
     <Nav>
-      <div className="logo">Nav Bar</div>
+      <div className="logo">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/rishaan-edu.appspot.com/o/IMG-20200803-WA0029.png?alt=media&token=bd795c0c-d0fa-49f9-8a9b-f5beb38a3f92"
+          style={{ width: 70, height: 70 }}
+          alt="logo"
+        />
+      </div>
       <Burger />
     </Nav>
   );

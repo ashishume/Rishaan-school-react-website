@@ -1,0 +1,34 @@
+@import "../../index.scss";
+
+.activity-container {
+  .activity-header {
+    color: $heading-color;
+  }
+
+  .content-container {
+    .item {
+      display: flex;
+      .item-icon {
+        margin-right: 50px;
+        .material-icons {
+          font-size: 70px;
+          color: $sub-heading-color;
+        }
+      }
+      .content-area {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .item-header {
+        font-size: 20px;
+        font-weight: 500;
+        color: $sub-heading-color;
+      }
+      .item-text {
+        padding:20px 0;
+        text-align: left;
+      }
+    }
+  }
+}

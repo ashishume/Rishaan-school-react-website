@@ -1,0 +1,24 @@
+@import "../../index.scss";
+.gallery-header {
+  font-size: 40px;
+  color: $heading-color;
+}
+.gallery-image {
+  width: 360px;
+  height: 250px;
+  margin: 5px;
+}
+.gallery-image:hover {
+  width: 360px;
+  height: 250px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px 3px rgba(43, 177, 255, 0.418);
+}
+
+.view-more {
+  color: rgb(86, 161, 223);
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}

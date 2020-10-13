@@ -1,14 +1,10 @@
 import React, { Fragment } from "react";
 import "./ImageCarousel";
-import ImageCarousel from "./ImageCarousel";
-import Nav from "../shared/components/Nav/Navbar";
-import IntroductionTitle from "./IntroductionTitle";
+import Routes from "../shared/Routing/Routes";
 const App = () => {
   return (
     <Fragment>
-      <Nav />
-      <ImageCarousel />
-      <IntroductionTitle />
+      <Routes />
     </Fragment>
   );
 };

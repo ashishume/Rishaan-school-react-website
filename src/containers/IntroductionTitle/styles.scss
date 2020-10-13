@@ -1,15 +1,59 @@
 @import "../../index.scss";
-.intro-subheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.heading1 {
+  text-align: justify;
+  padding: 10px;
+  margin: 40px auto;
+  height: 450px;
+  font-family: $text-font-family;
+}
+
+.heading2 {
+  @extend .heading1;
+  border-left: solid 5px $heading-color;
+  overflow: auto;
+  font-size: 12px;
+}
+.message-container {
+  text-align: center;
+  margin: 0 auto;
   justify-content: center;
-  .heading1,
-  .heading2 {
+  align-items: center;
+  width: 400px;
+
+  .message-header {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+  }
+  .message {
     text-align: justify;
-    padding: 20px;
-    margin: 40px;
-    font-family: $text-font-family;
-    border-left: solid 5px #ff9c00;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 300px;
+  }
+}
+
+.notice-item {
+  border-bottom: solid 1px lightgray;
+  padding-bottom: 10px;
+  .notice-header {
+    font-size: 15px;
+  }
+  .notice-text {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .notice-link {
+    font-size: 12px;
+    font-weight: 100;
+    color: blue;
   }
 }
