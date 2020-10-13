@@ -1,0 +1,15 @@
+@import "../../index.scss";
+.intro-subheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  .heading1,
+  .heading2 {
+    text-align: justify;
+    padding: 20px;
+    margin: 40px;
+    font-family: $text-font-family;
+    border-left: solid 5px #ff9c00;
+  }
+}
