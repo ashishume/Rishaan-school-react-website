@@ -1,0 +1,19 @@
+.top-header {
+  height: 35px;
+  background-color: #1e1b53;
+  display: flex;
+  padding-top: 6px;
+  justify-content: center;
+  align-items: center;
+  .header-text {
+    color: #fff;
+  }
+  .rolling-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-header {
+    display: none;
+  }
+}

@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-
+import React from "react";
+import styled from "styled-components";
+import "./styles.scss";
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -12,9 +12,9 @@ const Ul = styled.ul`
   @media (max-width: 768px) {
     z-index: 1;
     flex-flow: column nowrap;
-    background-color: #0D2538;
+    background-color: #0d2538;
     position: fixed;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
     height: 100vh;
@@ -31,13 +31,13 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
+      <li className="menu-items">Home</li>
+      <li className="menu-items">About Us</li>
+      <li className="menu-items">Admission</li>
+      <li className="menu-items">Curriculum</li>
+      <li className="menu-items">Contact Us</li>
     </Ul>
-  )
-}
+  );
+};
 
-export default RightNav
+export default RightNav;

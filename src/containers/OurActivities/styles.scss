@@ -3,6 +3,7 @@
 .activity-container {
   .activity-header {
     color: $heading-color;
+    text-decoration: underline;
   }
 
   .content-container {
@@ -26,7 +27,7 @@
         color: $sub-heading-color;
       }
       .item-text {
-        padding:20px 0;
+        padding: 20px 0;
         text-align: left;
       }
     }
