@@ -68,7 +68,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rishaan {
@@ -76,6 +75,7 @@
   font-weight: bold;
   font-size: 70px;
   font-family: $header-font-family;
+  text-shadow: 2px 7px 5px rgb(80, 76, 76);
 }
 
 .second-header {
@@ -83,11 +83,13 @@
   color: #fff;
   font-family: $header-font-family;
   font-weight: 900;
+  text-shadow: 2px 7px 5px rgb(80, 76, 76);
 }
 .sub-header {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
+  text-shadow: 2px 7px 5px rgb(80, 76, 76);
 }
 @media (max-width: 768px) {
   .rishaan {

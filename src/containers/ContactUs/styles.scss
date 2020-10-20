@@ -1,0 +1,35 @@
+@import "../../index.scss";
+
+.contact-form {
+  padding: 50px;
+  box-shadow: 1px 1px 5px 1px lightgray;
+  width: 500px;
+  border-radius: 10px;
+  margin: 50px auto;
+  @media screen and(max-width: 768px) {
+    width: 100%;
+  }
+}
+.input-style {
+  margin: 10px;
+}
+
+.contact-header {
+  text-align: center;
+  font-weight: 200;
+}
+
+.contact-submit {
+  margin: 10px;
+  border: none;
+  background-color: #678df8;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px gray;
+  width: 100%;
+}
+
+.alert-outline{
+    margin: 0 10px;
+}

@@ -11,7 +11,6 @@ const OurActivities = () => {
           <Col>
             <div className="activity-container">
               <h1 className="activity-header">Our Activities</h1>
-              <div className="sub-header">Our Bestservices for your Kids</div>
               <div className="content-container">
                 {itemArray.map((value) => {
                   return (

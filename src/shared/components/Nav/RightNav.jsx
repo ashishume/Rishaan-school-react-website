@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import "./styles.scss";
 const Ul = styled.ul`
@@ -31,11 +32,17 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li className="menu-items">Home</li>
+      <Link to="/">
+        <li className="menu-items">Home</li>
+      </Link>
       <li className="menu-items">About Us</li>
-      <li className="menu-items">Admission</li>
+      <Link to="/admissions">
+        <li className="menu-items">Admission</li>
+      </Link>
       <li className="menu-items">Curriculum</li>
-      <li className="menu-items">Contact Us</li>
+      <Link to="/contact-us">
+        <li className="menu-items">Contact Us</li>
+      </Link>
     </Ul>
   );
 };
